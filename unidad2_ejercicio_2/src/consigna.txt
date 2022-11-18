@@ -1,0 +1,32 @@
+/*
+2. Ejercicios de POO para resolver usando C++:
+
+2.1.Defina la clase Rectangulo, con las siguientes características :
+	Atributos públicos base y altura, de tipo entero
+	Método público Area que devuelve un entero que representa el área calculada como
+	base* altura.
+
+2.2.Modifique la clase Rectangulo para que sus atributos sean privados.Agregue los
+	métodos necesarios para poder leer y escribir sus atributos.
+
+2.3.Modifique la clase Rectangulo agregando el método Redimensionar() cuya
+	declaración es :
+	void Redimensionar(const int base, const int altura);
+	Dicho método reemplaza los valores de los atributos por los recibidos.
+	Nota: Debe mantener el encabezado tal como se indica, incluyendo los nombres de
+	los argumentos.
+
+2.4.Modifique la clase Rectangulo del ejercicio anterior agregando un método público
+	llamado MayorArea, el cual recibe como argumento una referencia constante a otra
+	instancia(const Fecha&) y devuelve el máximo entre el área de la instancia local
+	y la recibida como argumento.
+
+2.5.Modifique el ejercicio anterior de manera que la definición de la clase esté en el
+	archivo “Rectangulo.hpp” y la definición de los métodos se encuentre en el archivo
+	“Rectangulo.cpp”.
+
+2.6. (Opcional)Realizar un programa que consulte al usuario la cantidad de instancias
+	con las que trabajará y permita ingresar las dimensiones para cada una de ellas.Al
+	finalizar el ingreso se debe mostrar cuál fue la mayor área.
+	Nota: el programa no puede limitar la cantidad de instancias.
+*/

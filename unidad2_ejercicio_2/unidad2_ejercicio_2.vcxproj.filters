@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\ejer2.1\Rectangulo.cpp" />
+    <ClCompile Include="src\ejer2.2\Rectangulo2.cpp" />
+    <ClCompile Include="src\ejer2.3\Rectangulo3.cpp" />
+    <ClCompile Include="src\ejer2.4\Rectangulo4.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="src\consigna.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ejer2.1\Rectangulo.h" />
+    <ClInclude Include="src\ejer2.2\Rectangulo2.h" />
+    <ClInclude Include="src\ejer2.3\Rectangulo3.h" />
+    <ClInclude Include="src\ejer2.4\Rectangulo4.h" />
+  </ItemGroup>
+</Project>
